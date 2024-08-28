@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/index.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/index.ts"
+    }
+  ],
+  "env": {
+    "JWT_SECRET": "0d/+SORRBnxkCk5x6nSmLHtdNS2juwzpKhGavg9fPk4=",
+    "REFRESH_TOKEN_SECRET": "EHE7+kn15zLdGAU7xUCTQnG9ThpzfxaLXEuUjVa2v/I=",
+    "SESSION_SECRET": "EHE7+kn15zLdGAU7xUCTQnG9ThpzfxaLXEuUjVa2v/I=",
+    "GOOGLE_CLIENT_ID": "829092500903-rcgs6t75s6tc8acv715gf38d86092ns5.apps.googleusercontent.com",
+    "GOOGLE_CLIENT_SECRET": "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",
+    "PAGSEGURO_EMAIL": "josiasoliveira111@gmail.com",
+    "PAGSEGURO_TOKEN": "323AA27F7A274B84B241BC2D75449948",
+    "APPID_PAGSEGURO": "app2405351565",
+    "APPKEY_PAGSEGURO": "0EA4A2C8656583F6641C6F853CDBB8F0",
+    "CRYPTO_KEY": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+    "CRYPTO_IV": "3ad77bb40d7a3660a89ecaf32466ef97",
+    "GMAIL_ID": "4049569468-i9sr1bmh24j46p5168ijagt1job6lm06.apps.googleusercontent.com",
+    "GMAIL_SECRET": "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",
+    "GMAIL_REFRESH_TOKEN": "1//04uhh3Uep-S4zCgYIARAAGAQSNgF-L9IrPyt6r_EDe_-o99uPN1to1v777vrbxG_yfhMM6T3dA2Md_NvjSIvNFRZEej6rFWWgFQ",
+    "EMAIL_USER": "josiasoliveira111@gmail.com",
+    "EMAIL_PASS": "josias2603@#$",
+    "TWILIO_ACCOUNT_SID": "AC1b2ce7403f87d3e18780d0a8f0637973",
+    "TWILIO_AUTH_TOKEN": "9bcfd6a115c6659810cd79bcdf40bdbe",
+    "TWILIO_PHONE_NUMBER": "+17622429665",
+    "DB_CONNECTION_STRING": "mongodb+srv://josiasoliveiralll:4XYMT2E91owxMY03@cluster0.xxvy8yw.mongodb.net/test?tls=true&tlsAllowInvalidCertificates=true"
+  },
+  "regions": ["gru1"]
+}
